@@ -12,5 +12,5 @@ Todos.config(function($stateProvider, $urlRouterProvider) {
         controller: "TodosCtrl"
       },
     }
-});
+  });
 });
