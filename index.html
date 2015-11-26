@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en" ng-app="Todos">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>To-Do List</title>
+
+  <script src="lib/angular.js"></script>
+  <script src="lib/angular-ui-router.js"></script>
+  <script src="app.js"></script>
+
+  <script src="controllers/TodosController.js"></script>
+
+  <script src="services/TodosFactory.js"></script>
+  <!-- <script src="services/UtilitiesFactory.js"></script> -->
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- custom font -->
+  <!-- <link href='https://fonts.googleapis.com/css?family=Titillium+Web:900' rel='stylesheet' type='text/css'> -->
+
+  <!-- Custom styles -->
+  <link href='css/main.css' rel='stylesheet' type="text/css">
+
+</head>
+
+  <body>
+    <div class="container">
+      <h1>My To-Do List</h1>
+      <div ui-view="body"></div>
+    </div>
+  </body>
+  <footer class="footer">
+     <div class="container">
+        <p class="text-muted">created by <a href="http://loganwuu.github.io">Logan Wu</a> in 2015.</p>
+     </div>
+  </footer>
+</html>
