@@ -1,4 +1,3 @@
-main.js
 'use strict';
 
 angular.module('todoListApp')
